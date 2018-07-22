@@ -2,6 +2,10 @@
   "name": "philip-bfy-client",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.2.0",
+    "node": "9.9.0"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.4.1",
