@@ -1,0 +1,24 @@
+.match {
+  margin-bottom: 1em;
+}
+.match > ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  text-align: center;
+  list-style-type: none;
+}
+
+.match > ul > li {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Fail {
+  background-color: rgba(226, 182, 179, 0.5);
+}
+
+.Win {
+  background-color: rgba(163, 207, 236, 0.5);
+}

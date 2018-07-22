@@ -1,0 +1,19 @@
+.table-header {
+  margin-bottom: 1em;
+}
+
+.table-header > h1 {
+  color: #ffffff;
+}
+.table-header ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  text-align: center;
+  list-style-type: none;
+}
+
+.table-header ul li {
+  border: 1px solid black;
+  color: #ffffff;
+}
